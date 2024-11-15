@@ -9,6 +9,6 @@ add_library(
 target_compile_features(glad PRIVATE c_std_11)
 
 target_include_directories(
-    glad PUBLIC SYSTEM
+    glad SYSTEM PUBLIC
     "${PROJECT_SOURCE_DIR}/include"
 )
